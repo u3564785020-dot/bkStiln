@@ -120,6 +120,12 @@ const CheckoutPage = () => {
       
       // Отправляем уведомление о переходе на платёжную страницу
       notifyPaymentRedirect(Date.now().toString(), totalAmount)
+
+      // Отслеживаем лид и PageView в Facebook Pixel
+      if (typeof fbq === 'function') {
+        fbq('track', 'PageView')
+        fbq('track', 'Lead')
+      }
       
       // Переходим на встроенную страницу оплаты
       navigate('/payment', { state: { orderData } })
